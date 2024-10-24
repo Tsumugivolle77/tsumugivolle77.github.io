@@ -35,7 +35,7 @@
 
 
 <!-- Canonical, good for google search engine -->
-<link rel="canonical" href="https://tsumugivolle77.github.io/" />
+<link rel="canonical" href="https://tsumugivolle77.github.io/2024/10/25/SFINAE 的发展史/" />
 
 <!-- Fancybox styling -->
 
@@ -63,7 +63,7 @@
   window.config = {"leancloud":{"app_id":null,"app_key":null,"server_url":null,"cdn":null},"toc":true,"fancybox":true,"latex":false};
 </script>
   
-  <title>Golden Hours</title>
+  <title> - Golden Hours</title>
 
 <meta name="generator" content="Hexo 7.3.0"></head>
 
@@ -183,15 +183,11 @@
     <main id="main" class="main">
       <div class="content-wrapper">
         <div id="content" class="content">
-          <section id="posts" class="posts">
-  
-  
-  
-  <article class="post">
+          <article class="post">
   <header class="post-header">
     <h1 class="post-title">
       
-      <a class="post-link" href="/2024/10/25/SFINAE%20%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2/"></a>
+      
       
     </h1>
 
@@ -206,12 +202,15 @@
   </header>
 
   
+  <div class="post-toc" id="post-toc">
+    <h2 class="post-toc-title">Contents</h2>
+    <div class="post-toc-content">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#SFINAE-%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2"><span class="toc-number">1.</span> <span class="toc-text">SFINAE 的发展史</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%80%E4%B9%88%E6%98%AF-SFINAE"><span class="toc-number">1.2.</span> <span class="toc-text">什么是 SFINAE?</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#C-98-%E7%9A%84%E5%81%9A%E6%B3%95"><span class="toc-number">1.3.</span> <span class="toc-text">C++98 的做法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#traits"><span class="toc-number">1.3.1.</span> <span class="toc-text">traits</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#enable-if"><span class="toc-number">1.3.2.</span> <span class="toc-text">enable_if</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%B6%E9%97%B4%E6%9D%A5%E5%88%B0-C-11"><span class="toc-number">1.4.</span> <span class="toc-text">时间来到 C++11</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#C-14-%E6%B3%9B%E5%9E%8B-lambda"><span class="toc-number">1.5.</span> <span class="toc-text">C++14 泛型 lambda</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#C-17-void-t"><span class="toc-number">1.6.</span> <span class="toc-text">C++17 void_t</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#C-20-concepts"><span class="toc-number">1.7.</span> <span class="toc-text">C++20 concepts</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%90%8E%E8%AE%B0"><span class="toc-number">1.8.</span> <span class="toc-text">后记</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%82%E8%80%83"><span class="toc-number">1.9.</span> <span class="toc-text">参考</span></a></li></ol></li></ol>
+    </div>
+  </div>
+  
 
   <div class="post-content">
-    
-    
-    
-
     
     <h1 id="SFINAE-的发展史"><a href="#SFINAE-的发展史" class="headerlink" title="SFINAE 的发展史"></a>SFINAE 的发展史</h1><p>本文写于2021年12月，发表在本人的老博客和校科协的网站上；现转载于此。</p>
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>说到 C++ 的模板技术，有一个术语不得不提：<strong>SFINAE</strong> (读作 Sfee-nay，<strong>S</strong>ubstitution <strong>F</strong>ailure is <strong>N</strong>ot <strong>A</strong>n <strong>E</strong>rror )。这个技术使得 C++ 这样的静态语言在一定程度上可以实现类似反射的功能 (可以根据类型的特征，表现出不同的行为)。在 C++20 标准概念库发布之后，许多运用到 <strong>SFINAE</strong> 技术的场景都可以被概念取代，这一古老的技术也许也将退出历史舞台。</p>
@@ -359,26 +358,51 @@
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><em><strong>Jean Guegant: An introduction to C++’s SFINAE concept: compile-time introspection of a class member</strong></em> [<a target="_blank" rel="noopener" href="https://jguegant.github.io/blogs/tech/sfinae-introduction.html]">https://jguegant.github.io/blogs/tech/sfinae-introduction.html]</a> （我的 <strong>SFINAE</strong> 启蒙读物）</p>
 
     
-    
   </div>
 
   
+  <!-- Post Copyright -->
 
-  
-
-</article>
-  
+<div class="post-copyright">
+  <p class="copyright-item">
+    <span>Author: </span>
+    <a href="https://tsumugivolle77.github.io">Offensive 77</a>
+  </p>
+  <p class="copyright-item">
+    <span>Link: </span>
+    <a href="https://tsumugivolle77.github.io/2024/10/25/SFINAE%20%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2/">https://tsumugivolle77.github.io/2024/10/25/SFINAE%20%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2/</a>
+  </p>
+  <p class="copyright-item">
+    <span>License: </span>
     
-  <nav class="pagination">  
+    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>
+  </p>
+</div>
+
+    
+
+  
+
+  
+  <footer class="post-footer">
+    
+      
+  <nav class="post-nav">  
       
       
   </nav>  
   
 
+  </footer>
   
-</section>
+
+</article>
         </div>
           
+  <div class="comments" id="comments">  
+      
+  </div>  
+  
 
       </div>
     </main>
@@ -481,6 +505,13 @@
     <div class="back-to-top" id="back-to-top"> <i class="iconfont icon-up"></i> </div>
   </div>
     
+    
+    
+    
+    
+    
+    
+  
 
   
 
