@@ -1,218 +1,191 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en ">
 
 <head>
-  <!-- Website mata -->
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-<!-- Disable transformation -->
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-<meta name="theme-color" content="#f8f5ec" />
-<meta name="msapplication-navbutton-color" content="#f8f5ec">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
-
-<!-- Website description -->
-
-
-<!-- Website keywords -->
-
-
-
-
-<!-- Website rss -->
-
-<link rel="alternate" href="/default" title="Golden Hours" >
-
-
-<!-- Website favicon -->
-
-<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=3.0.0" />
-
-
-<!-- Canonical, good for google search engine -->
-<link rel="canonical" href="https://tsumugivolle77.github.io/2024/10/25/鸟白岛巡礼指北/" />
-
-<!-- Fancybox styling -->
-
-<link rel="stylesheet" type="text/css" href="/lib/fancybox/jquery.fancybox.css" />
-
-
-<!-- MathJax (LaTeX) support -->
-
-
-<!-- Theme styling -->
-<link rel="stylesheet" type="text/css" href="/css/style.css?v=3.0.0" />
-
-<!-- Analytics and push -->
-
-
-
-  
-
-
-
-<!-- LeanCloud Counter -->
-
-
-<script>
-  window.config = {"leancloud":{"app_id":null,"app_key":null,"server_url":null,"cdn":null},"toc":true,"fancybox":true,"latex":false};
-</script>
-  
-  <title> - Golden Hours</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Hours || 眩しさだけわ、忘れなかった</title>
+    <meta name="author" content="Offensive 77">
+    <meta name="description" content=" ">
+    <meta name="keywords" content=" ">
+    <link rel="icon" href="/images/avatar.png">
+    <link rel="stylesheet" href="/css/antd.min.css">
+    
+    <link rel="stylesheet" href="/css/maiden-theme.css">
+    
+    <script src="/js/vue.js"></script>
+    <script src="/js/antd.min.js"></script>
 <meta name="generator" content="Hexo 7.3.0"></head>
 
 <body>
-  <div class="scrollPercentage"></div>
-  <div id="mobile-navbar" class="mobile-navbar">
-  <div class="mobile-header-logo">
-    <a href="/." class="logo">Golden Hours</a>
-  </div>
-  <div class="mobile-navbar-icon">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</div>
 
-<nav id="mobile-menu" class="mobile-menu slideout-menu">
-  <ul class="mobile-menu-list">
-    
-    <a href="/">
-      <li class="mobile-menu-item">
+    <div id="loading"
+        style="height: 100vh; width: 100%; position: fixed;display: flex;z-index: 200; justify-content: space-between;">
+        <div id="loadleft" style="width: 50%;background-color: #ffffff;transition: width 0.6s ease-out;"></div>
+        <div id="loadright" style="width: 50%;background-color: #ffffff;transition: width 0.6s ease-out;"></div>
+        <div
+            style="position: fixed; height: 100vh; width: 100%;display: flex;justify-content: center;align-items: center;">
+            <div id="loadcontent"
+                style="width:400px;height:400px;padding:50px;border-radius:50%;display:flex;justify-content:center;align-items:center;border:solid 10px#a3ddfb; text-align:center;opacity:1;transition:opacity 0.3s ease-out;">
+                <div>
+                    <h2>LOADING...</h2>
+                    <p>加载过慢请开启缓存(浏览器默认开启)</p>
+                    <div>
+                        <img src="/dancingkitty.gif" alt="loading">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="layout">
+        <transition name="into">
+            <div v-show="show_page" style="display: none;">
+                <div id="menu_show">
+                     
+<nav id="menu">
+    <div class="desktop-menu">
+        <a href="/">
+            <span class="title">Golden Hours</span>
+        </a>
         
+        <a href="/">
+            <span>
+                <a-icon type="home" theme="filled" />
+            </span>
+            <span>home</span>
+        </a>
         
-        Home              </li>
-    </a>
-    
-    <a href="/archives/">
-      <li class="mobile-menu-item">
+        <a href="/about">
+            <span>
+                <a-icon type="idcard" theme="filled" />
+            </span>
+            <span>about</span>
+        </a>
         
+        <a href="/archives">
+            <span>
+                <a-icon type="folder" theme="filled" />
+            </span>
+            <span>archives</span>
+        </a>
         
-        Archives              </li>
-    </a>
-    
-    <a href="/tags/">
-      <li class="mobile-menu-item">
+        <a href="/like/categories">
+            <span>
+                <a-icon type="book" theme="filled" />
+            </span>
+            <span>categories</span>
+        </a>
         
+        <a href="/like/tags">
+            <span>
+                <a-icon type="tags" theme="filled" />
+            </span>
+            <span>tags</span>
+        </a>
         
-        Tags              </li>
-    </a>
-    
-    <a href="/categories/">
-      <li class="mobile-menu-item">
+        <a target="_blank" rel="noopener" href="https://en.korilin.com">
+            <span>
+                <a-icon type="compass" theme="filled" />
+            </span>
+            <span>英文博客</span>
+        </a>
         
-        
-        Categories              </li>
-    </a>
-    
-    <a href="/about/">
-      <li class="mobile-menu-item">
-        
-        
-        About              </li>
-    </a>
-    
-  </ul>
+    </div>
+
+    <div :class="'phone-menu ' + menu_show" id="phone-menu">
+        <div :class="'title'" @click="menu_show=!menu_show">
+            <span style="margin-right: 10px;">
+                <a-icon type="appstore" theme="filled" />
+            </span>
+            <span>Golden Hours</span>
+        </div>
+        <div class="items" v-show="menu_show">
+            
+            <a href="/">
+                <div class="item">
+                    <div style="min-width:20px; max-width:50px; width: 10%">
+                        <a-icon type="home" theme="filled" />
+                    </div>
+                    <div style="min-width:100px;max-width: 150%;width: 20%;">home</div>
+                </div>
+            </a>
+            
+            <a href="/about">
+                <div class="item">
+                    <div style="min-width:20px; max-width:50px; width: 10%">
+                        <a-icon type="idcard" theme="filled" />
+                    </div>
+                    <div style="min-width:100px;max-width: 150%;width: 20%;">about</div>
+                </div>
+            </a>
+            
+            <a href="/archives">
+                <div class="item">
+                    <div style="min-width:20px; max-width:50px; width: 10%">
+                        <a-icon type="folder" theme="filled" />
+                    </div>
+                    <div style="min-width:100px;max-width: 150%;width: 20%;">archives</div>
+                </div>
+            </a>
+            
+            <a href="/like/categories">
+                <div class="item">
+                    <div style="min-width:20px; max-width:50px; width: 10%">
+                        <a-icon type="book" theme="filled" />
+                    </div>
+                    <div style="min-width:100px;max-width: 150%;width: 20%;">categories</div>
+                </div>
+            </a>
+            
+            <a href="/like/tags">
+                <div class="item">
+                    <div style="min-width:20px; max-width:50px; width: 10%">
+                        <a-icon type="tags" theme="filled" />
+                    </div>
+                    <div style="min-width:100px;max-width: 150%;width: 20%;">tags</div>
+                </div>
+            </a>
+            
+            <a target="_blank" rel="noopener" href="https://en.korilin.com">
+                <div class="item">
+                    <div style="min-width:20px; max-width:50px; width: 10%">
+                        <a-icon type="compass" theme="filled" />
+                    </div>
+                    <div style="min-width:100px;max-width: 150%;width: 20%;">英文博客</div>
+                </div>
+            </a>
+            
+        </div>
+        <div class="curtain" v-show="menu_show"></div>
+    </div>
+
 </nav>
-  <div class="container" id="mobile-panel">
-    <header id="header" class="header">
-      <div class="logo-wrapper">  
-  <a href="/." class="logo">Golden Hours</a>  
-</div>  
-  
-<nav class="site-navbar">  
-    
-    <ul id="menu" class="menu">  
-        
-        <li class="menu-item">  
-          <a class="menu-item-link" href="/">  
-              
-              
-              Home  
-              
-          </a>  
-        </li>  
-        
-        <li class="menu-item">  
-          <a class="menu-item-link" href="/archives/">  
-              
-              
-              Archives  
-              
-          </a>  
-        </li>  
-        
-        <li class="menu-item">  
-          <a class="menu-item-link" href="/tags/">  
-              
-              
-              Tags  
-              
-          </a>  
-        </li>  
-        
-        <li class="menu-item">  
-          <a class="menu-item-link" href="/categories/">  
-              
-              
-              Categories  
-              
-          </a>  
-        </li>  
-        
-        <li class="menu-item">  
-          <a class="menu-item-link" href="/about/">  
-              
-              
-              About  
-              
-          </a>  
-        </li>  
-        
-    </ul>  
-    
-</nav>  
+                </div>
 
-    </header>
-    <main id="main" class="main">
-      <div class="content-wrapper">
-        <div id="content" class="content">
-          <article class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      
-      
-      
-    </h1>
-
-    <div class="post-meta">
-      <span class="post-time">
-        2024-10-25
-      </span>
-      
-      
-      
+                <div id="main">
+                     
+<link rel="stylesheet" href="/css/post-body.css">
+<div class="article">
+    <div>
+        <h1> </h1>
     </div>
-  </header>
+    <div class="info">
+        <span class="date">
+            <span class="icon">
+                <a-icon type="calendar" theme="filled" />
+            </span>
+            2024/10/25
+        </span>
 
-  
-  <div class="post-toc" id="post-toc">
-    <h2 class="post-toc-title">Contents</h2>
-    <div class="post-toc-content">
-      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%B8%9F%E7%99%BD%E5%B2%9B%E5%B7%A1%E7%A4%BC%E6%8C%87%E5%8C%97"><span class="toc-number">1.</span> <span class="toc-text">鸟白岛巡礼指北</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2"><span class="toc-number">1.1.</span> <span class="toc-text">写在前面</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Part-1-%E4%BD%8F%E5%AE%BF%E7%9A%84%E9%80%89%E9%A1%B9"><span class="toc-number">1.2.</span> <span class="toc-text">Part 1. 住宿的选项</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-%E4%BD%8F%E5%9C%A8%E9%AB%98%E6%9D%BE%E6%88%96%E7%9B%B4%E5%B2%9B"><span class="toc-number">1.2.1.</span> <span class="toc-text">1.1 住在高松或直岛</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-%E4%BD%8F%E5%9C%A8%E7%94%B7%E6%9C%A8%E5%B2%9B"><span class="toc-number">1.2.2.</span> <span class="toc-text">1.2 住在男木岛</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-%E4%BD%8F%E5%9C%A8%E5%A5%B3%E6%9C%A8%E5%B2%9B"><span class="toc-number">1.2.3.</span> <span class="toc-text">1.3 住在女木岛</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Part-2-%E4%B9%98%E5%9D%90%E6%B8%A1%E8%BD%AE%E7%9A%84%E7%BB%86%E8%8A%82"><span class="toc-number">1.3.</span> <span class="toc-text">Part 2. 乘坐渡轮的细节</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-%E9%9B%8C%E9%9B%84%E5%B2%9B%E8%88%AA%E7%BA%BF"><span class="toc-number">1.3.1.</span> <span class="toc-text">2.1 雌雄岛航线</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-%E5%9B%9B%E5%9B%BD%E8%88%AA%E7%BA%BF"><span class="toc-number">1.3.2.</span> <span class="toc-text">2.2 四国航线</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Part-3-%E5%B7%A1%E7%A4%BC%E7%BA%BF%E8%B7%AF%E9%80%89%E6%8B%A9%E3%80%81%E5%B2%9B%E4%B8%8A%E7%9A%84%E4%BA%A4%E9%80%9A%E6%96%B9%E5%BC%8F"><span class="toc-number">1.4.</span> <span class="toc-text">Part 3. 巡礼线路选择、岛上的交通方式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-%E5%B7%A1%E7%A4%BC%E7%BA%BF%E8%B7%AF%E9%80%89%E6%8B%A9"><span class="toc-number">1.4.1.</span> <span class="toc-text">3.1 巡礼线路选择</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-%E5%B2%9B%E4%B8%8A%E4%BA%A4%E9%80%9A%E6%96%B9%E5%BC%8F"><span class="toc-number">1.4.2.</span> <span class="toc-text">3.2 岛上交通方式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Part-4-%E5%8F%AF%E8%83%BD%E4%BC%9A%E9%94%99%E8%BF%87%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B7%A1%E7%A4%BC%E5%9C%B0%E7%82%B9"><span class="toc-number">1.5.</span> <span class="toc-text">Part 4. 可能会错过的一些巡礼地点</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Part-5-%E5%AD%A3%E8%8A%82%E6%80%A7%E7%9A%84%E6%B4%BB%E5%8A%A8%EF%BC%882024%E5%B9%B4%EF%BC%89"><span class="toc-number">1.6.</span> <span class="toc-text">Part 5. 季节性的活动（2024年）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Part-6-%E5%B7%A1%E7%A4%BC%E5%8F%AF%E4%BB%A5%E9%80%89%E6%8B%A9%E7%9A%84%EF%BC%88%E8%BD%AF%E4%BB%B6%EF%BC%89%E5%B7%A5%E5%85%B7"><span class="toc-number">1.7.</span> <span class="toc-text">Part 6. 巡礼可以选择的（软件）工具</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Part-7-%E5%9C%A8%E4%B8%8D%E4%BC%9A%E6%97%A5%E8%AF%AD%E7%9A%84%E6%83%85%E5%86%B5%E4%B8%8B%EF%BC%8C%E4%BD%A0%E5%8F%AF%E4%BB%A5%E5%81%9A%E4%BB%80%E4%B9%88%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="toc-number">1.8.</span> <span class="toc-text">Part 7. 在不会日语的情况下，你可以做什么准备工作</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BB%93%E8%AF%AD"><span class="toc-number">1.9.</span> <span class="toc-text">结语</span></a></li></ol></li></ol>
+        
+
+        
     </div>
-  </div>
-  
 
-  <div class="post-content">
-    
-    <h1 id="鸟白岛巡礼指北"><a href="#鸟白岛巡礼指北" class="headerlink" title="鸟白岛巡礼指北"></a>鸟白岛巡礼指北</h1><p>本文搬运自本人的b站专栏。</p>
+    <div class="content" v-pre>
+        <h1 id="鸟白岛巡礼指北"><a href="#鸟白岛巡礼指北" class="headerlink" title="鸟白岛巡礼指北"></a>鸟白岛巡礼指北</h1><p>本文搬运自本人的b站专栏。</p>
 <h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>今天是2024年7月26日。本人刚刚从日本返回中国，总计在日本停留了九天，其中前三天在高松（包括男木岛、女木岛、直岛）度过。决定写一篇专栏来记录我的第一次巡礼之旅。这是一场身体很累，但心灵却得到治愈的旅途。在这之中，我收获了许多意外的惊喜。</p>
 <p>由于秋叶原Cafe&amp;Bar MENU咖啡吧的Summer Pockets联动（原先定于7月25日结束，现已延迟到9月1日结束，需要提前预约），在高松旅程结束之后，笔者一路北上经由： “高松 –轮渡–&gt; 直岛 –轮渡–&gt; 宇野 –JR+新干线–&gt; 大阪 –阪急–&gt; 京都 –JR（原定新干线，但当天新干线脱轨。不是万不得已请不要使用JR，会绕很远的路且费用更高）–&gt; 东京”的线路最终到达秋叶原（途中当然在各地都进行了游玩）。</p>
 <p>此外，如果不打算前往京都，飞机也是一个很好的选择（京都没有任何的公共机场，<del>如果你长了螺旋桨，那么忽视这一段</del>）。如果没有鸟白岛巡礼以外的其他目的，那么全程几乎不需要用到JR或是新干线等轨道交通（在这种情况下，也没有必要购买交通卡）。</p>
@@ -266,189 +239,95 @@
 <p>日本人<del>废话</del>说的不少，提前记一些常用日本礼貌用语，可以给他人留下一个好印象。他们做事的条条框框也比较多，可以提前熟悉，给自己一个比较好的体验。比如说：日本人走路会固定走某一侧，记得留意脚下的方向标志；在自动扶梯上记得空出右边的一条通路给赶时间的人行走；用完餐起身之前说一句「ご馳走樣でした。」表示对厨师的感谢；需要其他人帮忙的时候私密马赛一下绝对没有错。最重要的一点是，注意日本店铺的营业时间：许多（不是全部）店铺10点才开门（石井商店是11点），而晚上6点（比如说直岛上的餐厅）~8点就已经关门了；如果需要吃早餐，可以去随处可见的711、全家福超市（巡礼的体力消耗不小，建议不要忘记吃早餐）。</p>
 <h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>祝愿读到这篇专栏的人能够从中获取一些有用的信息，可以在鸟白岛找到探求之物、找到自己、找到想做的事!</p>
 
-    
-  </div>
-
-  
-  <!-- Post Copyright -->
-
-<div class="post-copyright">
-  <p class="copyright-item">
-    <span>Author: </span>
-    <a href="https://tsumugivolle77.github.io">Offensive 77</a>
-  </p>
-  <p class="copyright-item">
-    <span>Link: </span>
-    <a href="https://tsumugivolle77.github.io/2024/10/25/%E9%B8%9F%E7%99%BD%E5%B2%9B%E5%B7%A1%E7%A4%BC%E6%8C%87%E5%8C%97/">https://tsumugivolle77.github.io/2024/10/25/%E9%B8%9F%E7%99%BD%E5%B2%9B%E5%B7%A1%E7%A4%BC%E6%8C%87%E5%8C%97/</a>
-  </p>
-  <p class="copyright-item">
-    <span>License: </span>
-    
-    <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>
-  </p>
-</div>
+    </div>
 
     
-
-  
-
-  
-  <footer class="post-footer">
-    
-      
-  <nav class="post-nav">  
-      
-      
-      <a class="next" href="/2024/10/25/SFINAE%20%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2/">  
-        <span class="next-text nav-default"></span>  
-        <span class="prev-text nav-mobile">Next</span>  
-        <i class="iconfont icon-right"></i>  
-      </a>  
-      
-  </nav>  
-  
-
-  </footer>
-  
-
-</article>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <div id="comment">
+        <div id="gitalk-container">
         </div>
-          
-  <div class="comments" id="comments">  
-      
-  </div>  
-  
-
-      </div>
-    </main>
-    <footer id="footer" class="footer">
-      <!-- Social Links -->
-
-<div class="social-links">
-  
-  
-  
-  
-  <a href="mailto:endsieg77@gmail.com" class="iconfont icon-email" title="email"></a>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <a target="_blank" rel="noopener" href="https://x.com/Offensive771" class="iconfont icon-twitter" title="twitter"></a>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <a target="_blank" rel="noopener" href="https://github.com/Tsumugivolle77" class="iconfont icon-github" title="github"></a>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-
-  
-  
-  <a href="/atom.xml" class="iconfont icon-rss" title="rss"></a>
-  
+    </div>
+    
 </div>
+                     
+<footer id="footer">
+    <div class="footer-wrap">
+        <div>
+            © 2018 - 2024 Golden Hours
+            <span class="footer-icon">
+                <a-icon type="flag" theme="filled" /></span>
+            @Offensive 77
+        </div>
+        <div></div>
+        <div>Based on the <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo Engine</a> & <a
+                target="_blank" rel="noopener" href="https://github.com/korilin/hexo-theme-particle">Particle Theme</a></div>
+        
+    </div>
 
+</footer>
 
+<script src="/js/highlight.min.js"></script>
+<script src="/js/particle.js"></script>
+                </div>
+            </div>
+        </transition>
+    </div>
 
-<div class="copyright">
-  <span class="power-by">
-    Powered by <a class="hexo-link" target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>
-  </span>
-  <span class="division">|</span>
-  <span class="theme-info">
-    Theme -
-    <a class="theme-link" target="_blank" rel="noopener" href="https://github.com/zeed-w-beez/hexo-theme-even">Even</a>
-  </span>
-  <span class="division">|</span>
-  <span class="hosting-info">
-    footer.hosting
-  </span>
+    <script>
+    new Vue({
+        el: "#layout",
+        data: {
+            show_page: false,
+            onload_menu: false,
+            menu_show: false,
+            card_top: 100
+        },
+        created: function () {
+            var that = this
+            window.onload = function () {
+                that.show_page = true
+                document.getElementById("loadcontent").style.opacity = 0
+                setTimeout(function () {
+                    document.getElementById("loadleft").style.width = 0
+                    document.getElementById("loadright").style.width = 0
+                }, 300)
+                setTimeout(function () {
+                    document.getElementById("loading").style = "display:none"
+                }, 600)
+            }
+        },
+        mounted: function () {
+            var that = this
+            window.addEventListener('scroll', function (e) {
+                that.menu_show = false
+            })
+        },
+        methods: {
+            home_click: function () {
+                window.scrollTo({
+                    top: window.innerHeight - 80,
+                    behavior: "smooth",
+                });
+            }
+        }
+    })
+</script>
 
-  <span class="copyright-year">
-    <span>
-      
-      &copy;
-      
-      2024      
-    </span>
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script>
+    const gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: 'hexo-theme-particle',      // The repository of store comments,
+        owner: 'korilin',
+        admin: ['korilin'],
+        language: 'en',
+        id: location.pathname,      // Ensure uniqueness and length less than 50
+        distractionFreeMode: true  // Facebook-like distraction free mode
+    })
+    gitalk.render('gitalk-container')
+</script>
 
-    <span class="heart">
-      <i class="iconfont icon-heart"></i>
-    </span>
-
-    <span class="author">Offensive 77</span>
-  </span>
-
-</div>
-    </footer>
-    <div class="back-to-top" id="back-to-top"> <i class="iconfont icon-up"></i> </div>
-  </div>
-    
-    
-    
-    
-    
-    
-    
-  
-
-  
-
-
-
-
-
-
-
-<script type="text/javascript" src="/lib/jquery/jquery.min.js"></script>
-
-
-
-<script type="text/javascript" src="/lib/slideout/slideout.js"></script>
-
-
-
-<script type="text/javascript" src="/lib/fancybox/jquery.fancybox.pack.js"></script>
-
-
-
-  <script type="text/javascript" src="/js/src/even.js?v=3.0.0"></script>
 </body>
 
 </html>
