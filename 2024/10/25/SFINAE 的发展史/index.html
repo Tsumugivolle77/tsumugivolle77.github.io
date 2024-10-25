@@ -45,7 +45,7 @@
 <meta property="og:description" content="SFINAE 的发展史本文写于2021年12月，发表在本人的老博客和校科协的网站上；现转载于此。 前言说到 C++ 的模板技术，有一个术语不得不提：SFINAE (读作 Sfee-nay，Substitution Failure is Not An Error )。这个技术使得 C++ 这样的静态语言在一定程度上可以实现类似反射的功能 (可以根据类型的特征，表现出不同的行为)。在 C++20 标准">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-10-24T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-10-25T07:05:57.514Z">
+<meta property="article:modified_time" content="2024-10-25T07:12:35.792Z">
 <meta property="article:author" content="Offensive 77">
 <meta property="article:tag" content="C++">
 <meta property="article:tag" content="SFINAE">
@@ -130,7 +130,7 @@
     <div class="mdui-card-primary-subtitle mdui-typo">
         
         <span><a class="tag-none-link" href="/tags/C/" rel="tag">C++</a> <a class="tag-none-link" href="/tags/SFINAE/" rel="tag">SFINAE</a> <a class="tag-none-link" href="/tags/templates/" rel="tag">templates</a> -</span>
-        <span mdui-tooltip="{content:'Created: 2024-10-25 12:00<br>Updated: 2024-10-25 03:05'}">2024-10-25 -</span>
+        <span mdui-tooltip="{content:'Created: 2024-10-25 12:00<br>Updated: 2024-10-25 03:12'}">2024-10-25 -</span>
         
             <span>2024/10/25/SFINAE 的发展史/</span>
         
@@ -258,7 +258,7 @@
     <span class="token keyword">return</span> <span class="token keyword">sizeof</span><span class="token punctuation">(</span>obj<span class="token punctuation">)</span><span class="token punctuation">;</span>
 <span class="token punctuation">&#125;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
-<p>两处都得写上 <code>enable_if</code>，否则会产生二义性。（如果其中一个 <code>enable_if</code> 的参数1为 <code>true</code>，那么返回值是 <code>size_t</code>，那么另外一个 <code>enable_if</code> 必然没有返回值，所以它会被排除在候选名单之外，假如另外一个函数拥有返回值，那么这个时候编译器将会不清楚应该调用哪个版本的函数，从而产生 error）</p>
+<p>两处都得写上 <code>enable_if</code>，否则会产生二义性。（如果其中一个 <code>enable_if</code> 的参数1为 <code>true</code>，那么返回值类型是 <code>size_t</code>，那么另外一个 <code>enable_if</code> 必然没有返回值类型（也就是type成员），所以它会被排除在候选名单之外，假如另外一个函数拥有返回值类型，那么这个时候编译器将会不明白应该调用哪个版本的函数，从而产生 error）</p>
 <p>下面来试验一下：</p>
 <pre class="line-numbers language-cpp" data-language="cpp"><code class="language-cpp">std<span class="token double-colon punctuation">::</span>vector<span class="token operator">&lt;</span><span class="token keyword">int</span><span class="token operator">></span> v <span class="token operator">=</span> <span class="token punctuation">&#123;</span><span class="token number">4</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">6</span><span class="token punctuation">,</span> <span class="token number">7</span><span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
 <span class="token keyword">char</span> c <span class="token operator">=</span> <span class="token char">'c'</span><span class="token punctuation">;</span>
