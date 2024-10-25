@@ -6,7 +6,7 @@
   <link href="https://tsumugivolle77.github.io/atom.xml" rel="self"/>
   
   <link href="https://tsumugivolle77.github.io/"/>
-  <updated>2024-10-25T03:43:57.992Z</updated>
+  <updated>2024-10-25T03:48:13.361Z</updated>
   <id>https://tsumugivolle77.github.io/</id>
   
   <author>
@@ -15,19 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>test</title>
-    <link href="https://tsumugivolle77.github.io/2024/10/25/test/"/>
-    <id>https://tsumugivolle77.github.io/2024/10/25/test/</id>
-    <published>2024-10-25T03:43:57.000Z</published>
-    <updated>2024-10-25T03:43:57.992Z</updated>
-    
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>SFINAE 的发展史</title>
