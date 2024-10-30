@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="hexo-theme" content="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.29.1" theme-name="Stellar" theme-version="1.29.1">
-  <meta name="robots" content="noindex,follow">
+  
   <meta name="generator" content="Hexo 7.3.0">
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   
@@ -17,16 +17,23 @@
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000">
   <meta name="theme-color" content="#f9fafb">
   
-  <title>Tag: templates - Golden Hours</title>
+  <title>Link to Me - Golden Hours</title>
 
   
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Golden Hours">
-<meta property="og:url" content="https://tsumugivolle77.github.io/tags/templates/">
+    <meta name="description" content="TwitterGithub">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Link to Me">
+<meta property="og:url" content="https://tsumugivolle77.github.io/explore/">
 <meta property="og:site_name" content="Golden Hours">
+<meta property="og:description" content="TwitterGithub">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://pbs.twimg.com/profile_images/1778110628319969280/ZDT6EeEw_400x400.jpg">
+<meta property="og:image" content="https://avatars.githubusercontent.com/u/178071066?v=4">
+<meta property="article:published_time" content="2024-10-30T05:18:43.000Z">
+<meta property="article:modified_time" content="2024-10-30T05:19:16.359Z">
 <meta property="article:author" content="Offensive 77">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1778110628319969280/ZDT6EeEw_400x400.jpg">
   
   
   
@@ -53,7 +60,7 @@
 <!-- hexo injector head_end end --></head>
 <body>
 
-<div class="l_body s:aa index tech" id="start" layout="undefined" ><aside class="l_left"><div class="leftbar-container">
+<div class="l_body s:aa content tech" id="start" layout="page" ><aside class="l_left"><div class="leftbar-container">
 
 
 <header class="header"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="https://avatars.githubusercontent.com/u/178071066?v=4" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/2659360.svg';"></a><a class="title" href="/"><div class="main" ff="title">Golden Hours</div><div class="sub normal cap">「眩しさだけは、忘れなかった」</div><div class="sub hover cap" style="opacity:0">「想像力こそが、すべてを変える」</div></a></div></header>
@@ -70,20 +77,30 @@
 
 </div></aside><div class="l_main" id="main">
 
-<header class="header mobile-only"><div class="logo-wrap"><a class="avatar" href="/about/"><div class="bg" style="opacity:0;background-image:url(https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="https://avatars.githubusercontent.com/u/178071066?v=4" onerror="javascript:this.classList.add('error');this.src='https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/image/2659360.svg';"></a><a class="title" href="/"><div class="main" ff="title">Golden Hours</div><div class="sub normal cap">「眩しさだけは、忘れなかった」</div><div class="sub hover cap" style="opacity:0">「想像力こそが、すべてを変える」</div></a></div></header>
-
- 
 
 
 
 
-<div class="navbar top"><nav class="post"><a href="/">Recent</a><a class="active" href="/tags">Tag: templates</a><a href="/archives">Archives</a></nav></div>
-<div class="post-list post"><a class="post-card post" href="/2024/10/25/SFINAE%20%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2/">
-<article class="md-text"><h2 class="post-title">SFINAE 的发展史</h2><div class="excerpt"><p>本文写于2021年12月，发表在本人的老博客和校科协的网站上；现转载于此。
-前言说到 C++ 的模板技术，有一个术语不得不提：SFINAE (读作 Sfee-nay，Substitution Failure is Not An Error )。这个技术使得 C++ 这样的静态语言在一定程度上可以实现类似反射的功能 (可以根据类型的特征，表现出不同的行为)。在 C++20 标准概念库发布之后，许多运用到 SFINAE 的场景都可以被概念取代，这一古老的方案也许也将退出到幕后。
-当然，这不是一件值得悲伤的事情，这说明标准委员会在积极地寻求摆脱历史的包袱的途径。
-这篇文章旨在向想要了解 SFINAE 的读者介绍这一技术的发展历史。</p></div><div class="meta cap"><span class="cap" id="post-meta"><svg style="margin-bottom:2px" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M6.94 2c.416 0 .753.324.753.724v1.46c.668-.012 1.417-.012 2.26-.012h4.015c.842 0 1.591 0 2.259.013v-1.46c0-.4.337-.725.753-.725s.753.324.753.724V4.25c1.445.111 2.394.384 3.09 1.055c.698.67.982 1.582 1.097 2.972L22 9H2v-.724c.116-1.39.4-2.302 1.097-2.972c.697-.67 1.645-.944 3.09-1.055V2.724c0-.4.337-.724.753-.724"/><path fill="currentColor" d="M22 14v-2c0-.839-.004-2.335-.017-3H2.01c-.013.665-.01 2.161-.01 3v2c0 3.771 0 5.657 1.172 6.828C4.343 22 6.228 22 10 22h4c3.77 0 5.656 0 6.828-1.172C22 19.658 22 17.772 22 14" opacity=".5"/><path fill="currentColor" d="M18 17a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-5 4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m-5 4a1 1 0 1 1-2 0a1 1 0 0 1 2 0m0-4a1 1 0 1 1-2 0a1 1 0 0 1 2 0"/></svg><time datetime="2024-10-24T16:00:00.000Z">2024-10-25</time></span></div></article>
-</a></div>
+<div class="article banner top">
+  <div class="content">
+    <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">Home</a>
+
+  <span class="sep"></span>
+  <a class="cap breadcrumb" href="/explore/">Link to Me</a>
+  </div>
+<div class="flex-row" id="post-meta"><span class="text created">Posted on: <time datetime="2024-10-30T05:18:43.000Z">2024-10-30</time></span><span class="sep updated"></span><span class="text updated">Updated on: <time datetime="2024-10-30T05:19:16.359Z">2024-10-30</time></span></div></div></div>
+    
+    <div class="bottom only-title">
+      
+      <div class="text-area">
+        <h1 class="text title"><span>Link to Me</span></h1>
+        
+      </div>
+    </div>
+    
+  </div>
+  </div><article class="md-text content"><div class="tag-plugin users-wrap"><div class="grid-box"><div class="grid-cell user-card"><a class="card-link" target="_blank" rel="external nofollow noopener noreferrer" href="https://x.com/Offensive771"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://pbs.twimg.com/profile_images/1778110628319969280/ZDT6EeEw_400x400.jpg" onerror="javascript:this.removeAttribute(&quot;data-src&quot;);this.src=&quot;https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/avatar/round/3442075.svg&quot;;"><div class="name"><span>Twitter</span></div></a></div><div class="grid-cell user-card"><a class="card-link" target="_blank" rel="external nofollow noopener noreferrer" href="https://github.com/Tsumugivolle77"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://avatars.githubusercontent.com/u/178071066?v=4" onerror="javascript:this.removeAttribute(&quot;data-src&quot;);this.src=&quot;https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/avatar/round/3442075.svg&quot;;"><div class="name"><span>Github</span></div></a></div></div></div></article>
+
 
 
 <footer class="page-footer footnote"><hr><div class="text"><p>本站由 <a href="/">Offensive 77</a> 使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.29.1">Stellar 1.29.1</a> 主题创建。<br>本博客所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议，转载请注明出处。</p>
