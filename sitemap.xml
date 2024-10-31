@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tsumugivolle77.github.io/wiki/</loc>
+    
+    <lastmod>2024-10-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tsumugivolle77.github.io/2024/10/25/SFINAE%20%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2/</loc>
     
     <lastmod>2024-10-30</lastmod>
@@ -20,16 +29,7 @@
   </url>
   
   <url>
-    <loc>https://tsumugivolle77.github.io/links/</loc>
-    
-    <lastmod>2024-10-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tsumugivolle77.github.io/wiki/</loc>
+    <loc>https://tsumugivolle77.github.io/friends/</loc>
     
     <lastmod>2024-10-30</lastmod>
     
@@ -67,7 +67,7 @@
 
   <url>
     <loc>https://tsumugivolle77.github.io/</loc>
-    <lastmod>2024-10-30</lastmod>
+    <lastmod>2024-10-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,49 +75,49 @@
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/maths/</loc>
-    <lastmod>2024-10-30</lastmod>
+    <lastmod>2024-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/linear-algebra/</loc>
-    <lastmod>2024-10-30</lastmod>
+    <lastmod>2024-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/C/</loc>
-    <lastmod>2024-10-30</lastmod>
+    <lastmod>2024-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/SFINAE/</loc>
-    <lastmod>2024-10-30</lastmod>
+    <lastmod>2024-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/templates/</loc>
-    <lastmod>2024-10-30</lastmod>
+    <lastmod>2024-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/Summer-Pockets/</loc>
-    <lastmod>2024-10-30</lastmod>
+    <lastmod>2024-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/travel/</loc>
-    <lastmod>2024-10-30</lastmod>
+    <lastmod>2024-10-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
