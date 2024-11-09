@@ -1,7 +1,7 @@
 https://tsumugivolle77.github.io/2024/11/05/Life-in-Germany-Prologue/
 https://tsumugivolle77.github.io/wiki/
-https://tsumugivolle77.github.io/2024/10/24/SFINAE%20%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2/
-https://tsumugivolle77.github.io/2024/10/24/%E9%B8%9F%E7%99%BD%E5%B2%9B%E5%B7%A1%E7%A4%BC%E6%8C%87%E5%8C%97/
+https://tsumugivolle77.github.io/2024/10/25/SFINAE%20%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2/
+https://tsumugivolle77.github.io/2024/10/25/%E9%B8%9F%E7%99%BD%E5%B2%9B%E5%B7%A1%E7%A4%BC%E6%8C%87%E5%8C%97/
 https://tsumugivolle77.github.io/friends/
 https://tsumugivolle77.github.io/explore/
 https://tsumugivolle77.github.io/about/
