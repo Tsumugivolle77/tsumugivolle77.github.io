@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tsumugivolle77.github.io/friends/</loc>
+    
+    <lastmod>2024-11-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/explore/</loc>
+    
+    <lastmod>2024-11-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/about/</loc>
+    
+    <lastmod>2024-11-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tsumugivolle77.github.io/2024/11/05/Life-in-Germany-Prologue/</loc>
     
     <lastmod>2024-11-15</lastmod>
@@ -39,33 +66,6 @@
   
   <url>
     <loc>https://tsumugivolle77.github.io/2024/10/25/%E9%B8%9F%E7%99%BD%E5%B2%9B%E5%B7%A1%E7%A4%BC%E6%8C%87%E5%8C%97/</loc>
-    
-    <lastmod>2024-10-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tsumugivolle77.github.io/friends/</loc>
-    
-    <lastmod>2024-10-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tsumugivolle77.github.io/explore/</loc>
-    
-    <lastmod>2024-10-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tsumugivolle77.github.io/about/</loc>
     
     <lastmod>2024-10-30</lastmod>
     
