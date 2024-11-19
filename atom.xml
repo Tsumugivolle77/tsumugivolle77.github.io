@@ -6,7 +6,7 @@
   <link href="https://tsumugivolle77.github.io/atom.xml" rel="self"/>
   
   <link href="https://tsumugivolle77.github.io/"/>
-  <updated>2024-11-19T12:31:48.077Z</updated>
+  <updated>2024-11-19T12:57:03.245Z</updated>
   <id>https://tsumugivolle77.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://tsumugivolle77.github.io/2024/11/19/IVP-Sensitivity-Matrices-Properties/"/>
     <id>https://tsumugivolle77.github.io/2024/11/19/IVP-Sensitivity-Matrices-Properties/</id>
     <published>2024-11-19T12:26:11.000Z</published>
-    <updated>2024-11-19T12:31:48.077Z</updated>
+    <updated>2024-11-19T12:57:03.245Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="[object Object]" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="/images/ivp_sensitivity/QQ_1732019135862.png" alt="alt text"><br><img src="/images/ivp_sensitivity/QQ_1732019284142.png" alt="alt text"><br>All the other properties are easy to show, except a notable one (g).</p><p>The proof is given above:<br><img src="/images/ivp_sensitivity/QQ_1732019391013.png" alt="alt text"><br>this is given by applying the chain rule.</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="[object Object]" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="/images/IVP_Sensitivity/QQ_1732019135862.png" alt="alt text"><br><img src="/images/IVP_Sensitivity/QQ_1732019284142.png" alt="alt text"><br>All the other properties are easy to show, except a notable one (g).</p><p>The proof is given above:<br><img src="/images/IVP_Sensitivity/QQ_1732019391013.png" alt="alt text"><br>this is given by applying the chain rule.</p>]]></content>
     
     
       
