@@ -6,7 +6,7 @@
   <link href="https://tsumugivolle77.github.io/atom.xml" rel="self"/>
   
   <link href="https://tsumugivolle77.github.io/"/>
-  <updated>2024-11-15T23:00:01.889Z</updated>
+  <updated>2024-11-19T12:31:48.077Z</updated>
   <id>https://tsumugivolle77.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IVP Sensitivity Matrices: Properties</title>
+    <link href="https://tsumugivolle77.github.io/2024/11/19/IVP-Sensitivity-Matrices-Properties/"/>
+    <id>https://tsumugivolle77.github.io/2024/11/19/IVP-Sensitivity-Matrices-Properties/</id>
+    <published>2024-11-19T12:26:11.000Z</published>
+    <updated>2024-11-19T12:31:48.077Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="[object Object]" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><p><img src="/images/ivp_sensitivity/QQ_1732019135862.png" alt="alt text"><br><img src="/images/ivp_sensitivity/QQ_1732019284142.png" alt="alt text"><br>All the other properties are easy to show, except a notable one (g).</p><p>The proof is given above:<br><img src="/images/ivp_sensitivity/QQ_1732019391013.png" alt="alt text"><br>this is given by applying the chain rule.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;[object Object]&quot; class=&quot;aplaye</summary>
+      
+    
+    
+    
+    <category term="maths" scheme="https://tsumugivolle77.github.io/categories/maths/"/>
+    
+    
+    <category term="Numerical Optimization" scheme="https://tsumugivolle77.github.io/tags/Numerical-Optimization/"/>
+    
+  </entry>
   
   <entry>
     <title>Heidelberg Bird Observation</title>
