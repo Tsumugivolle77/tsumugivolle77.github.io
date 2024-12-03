@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tsumugivolle77.github.io/2024/12/03/Prove-Trumpet-Bound/</loc>
+    
+    <lastmod>2024-12-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/2024/12/02/mmd-notes/</loc>
+    
+    <lastmod>2024-12-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tsumugivolle77.github.io/2024/12/01/Zitate-von-1984/</loc>
     
     <lastmod>2024-12-01</lastmod>
@@ -103,7 +121,7 @@
 
   <url>
     <loc>https://tsumugivolle77.github.io/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -111,84 +129,98 @@
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/maths/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/linear-algebra/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/Deutschland/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/life/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/C/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/SFINAE/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/templates/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/Summer-Pockets/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/travel/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/Numerical-Optimization/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/1984/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/political-sarcasm/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/tags/Optimization/</loc>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/tags/mining-massive-datasets/</loc>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -197,35 +229,42 @@
   
   <url>
     <loc>https://tsumugivolle77.github.io/categories/maths/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/categories/life-records/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/categories/programming/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/categories/anitabi/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/categories/literature/</loc>
-    <lastmod>2024-12-01</lastmod>
+    <lastmod>2024-12-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/categories/CS/</loc>
+    <lastmod>2024-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
