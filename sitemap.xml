@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tsumugivolle77.github.io/friends/</loc>
+    
+    <lastmod>2024-12-04</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tsumugivolle77.github.io/explore/</loc>
     
     <lastmod>2024-12-04</lastmod>
@@ -95,15 +104,6 @@
     <loc>https://tsumugivolle77.github.io/2024/11/19/IVP-Sensitivity-Matrices-Properties/</loc>
     
     <lastmod>2024-11-19</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tsumugivolle77.github.io/friends/</loc>
-    
-    <lastmod>2024-11-15</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
