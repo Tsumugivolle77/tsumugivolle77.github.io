@@ -6,7 +6,7 @@
   <link href="https://tsumugivolle77.github.io/atom.xml" rel="self"/>
   
   <link href="https://tsumugivolle77.github.io/"/>
-  <updated>2024-12-15T11:15:02.120Z</updated>
+  <updated>2024-12-17T17:13:42.371Z</updated>
   <id>https://tsumugivolle77.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Properties of Arnoldi process for skew symmetric matrices</title>
+    <link href="https://tsumugivolle77.github.io/2024/12/17/Properties-of-Arnoldi-process-for-skew-symmetric-matrices/"/>
+    <id>https://tsumugivolle77.github.io/2024/12/17/Properties-of-Arnoldi-process-for-skew-symmetric-matrices/</id>
+    <published>2024-12-17T17:10:21.000Z</published>
+    <updated>2024-12-17T17:13:42.371Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="[object Object]" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h2><span id="question">Question</span></h2><p><img src="/images/arnoldi_process/QQ_1734455471666.png" alt="alt text"></p><h2><span id="solution-incomplete">Solution (incomplete)</span></h2><p><img src="/images/arnoldi_process/QQ_1734455553573.png" alt="alt text"><br><img src="/images/arnoldi_process/image.png" alt="alt text"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;[object Object]&quot; class=&quot;aplaye</summary>
+      
+    
+    
+    
+    <category term="maths" scheme="https://tsumugivolle77.github.io/categories/maths/"/>
+    
+    
+    <category term="Numerical Linear Algebra" scheme="https://tsumugivolle77.github.io/tags/Numerical-Linear-Algebra/"/>
+    
+  </entry>
   
   <entry>
     <title>A Review on Statistics: MLE and MAP</title>
