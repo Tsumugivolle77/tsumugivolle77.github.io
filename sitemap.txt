@@ -1,10 +1,10 @@
+https://tsumugivolle77.github.io/2024/12/01/Zitate-von-1984/
 https://tsumugivolle77.github.io/2024/12/17/Properties-of-Arnoldi-process-for-skew-symmetric-matrices/
 https://tsumugivolle77.github.io/2024/12/15/A-Review-on-Statistics-MLE-and-MAP/
 https://tsumugivolle77.github.io/friends/
 https://tsumugivolle77.github.io/explore/
 https://tsumugivolle77.github.io/about/
 https://tsumugivolle77.github.io/2024/12/03/Prove-Trumpet-Bound/
-https://tsumugivolle77.github.io/2024/12/01/Zitate-von-1984/
 https://tsumugivolle77.github.io/2024/11/05/Life-in-Germany-Prologue/
 https://tsumugivolle77.github.io/2024/11/15/Heidelberg-Bird-Observation/
 https://tsumugivolle77.github.io/2024/10/25/SFINAE%20%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2/
@@ -24,9 +24,9 @@ https://tsumugivolle77.github.io/tags/Summer-Pockets/
 https://tsumugivolle77.github.io/tags/travel/
 https://tsumugivolle77.github.io/tags/Numerical-Optimization/
 https://tsumugivolle77.github.io/tags/1984/
-https://tsumugivolle77.github.io/tags/political-sarcasm/
 https://tsumugivolle77.github.io/tags/Statistics/
 https://tsumugivolle77.github.io/tags/Numerical-Linear-Algebra/
+https://tsumugivolle77.github.io/tags/Welt-von-Gestern/
 https://tsumugivolle77.github.io/categories/maths/
 https://tsumugivolle77.github.io/categories/life-records/
 https://tsumugivolle77.github.io/categories/programming/
