@@ -243,6 +243,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://tsumugivolle77.github.io/tags/not-suitbale-for-read/</loc>
+    <lastmod>2025-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -275,6 +282,13 @@
   
   <url>
     <loc>https://tsumugivolle77.github.io/categories/literature/</loc>
+    <lastmod>2025-02-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/categories/review/</loc>
     <lastmod>2025-02-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
