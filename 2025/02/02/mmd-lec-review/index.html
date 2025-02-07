@@ -28,8 +28,9 @@
 <meta property="og:description" content="mmd_lec_reviewLec 1 Utility Matrix User-User Collabrative Filter (CF) Avg of k existing ratings (Basic): sum of r&#x2F;k Weighted Avg of ratings with Cosine Similarity Considering Bias (Avg of user ratings">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://tsumugivolle77.github.io/images/mmd_lec_review/QQ_1738575166219.png">
+<meta property="og:image" content="https://tsumugivolle77.github.io/images/mmd_lec_review/link_farming.png">
 <meta property="article:published_time" content="2025-02-02T15:57:33.000Z">
-<meta property="article:modified_time" content="2025-02-06T18:37:00.778Z">
+<meta property="article:modified_time" content="2025-02-07T01:59:08.866Z">
 <meta property="article:author" content="Offensive 77">
 <meta property="article:tag" content="not-suitbale-for-read">
 <meta name="twitter:card" content="summary">
@@ -199,7 +200,7 @@ mjx-container[display="true"] + br {
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">Home</a>
 <span class="sep"></span><a class="cap breadcrumb" href="/">Blog</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/review/">review</a></div>
-<div class="flex-row" id="post-meta"><span class="text created">Posted on: <time datetime="2025-02-02T15:57:33.000Z">2025-02-02</time></span><span class="sep updated"></span><span class="text updated">Updated on: <time datetime="2025-02-06T18:37:00.778Z">2025-02-06</time></span></div></div></div>
+<div class="flex-row" id="post-meta"><span class="text created">Posted on: <time datetime="2025-02-02T15:57:33.000Z">2025-02-02</time></span><span class="sep updated"></span><span class="text updated">Updated on: <time datetime="2025-02-07T01:59:08.866Z">2025-02-07</time></span></div></div></div>
     
     <div class="bottom only-title">
       
@@ -372,6 +373,54 @@ mjx-container[display="true"] + br {
 </ul>
 </li>
 </ul>
+<h1><span id="lec-8">Lec 8</span></h1><ul>
+<li>LSH<ul>
+<li>divide signature matrix into b bands r rows</li>
+<li>find the best params s, b, r, to balance false positive/false negative rate</li>
+</ul>
+</li>
+</ul>
+<h1><span id="lec-9">Lec 9</span></h1><p>Association Rule Discovery</p>
+<ul>
+<li>item, basket</li>
+<li>what kind of items will be bought in combination?</li>
+<li>support of {items…} := frequency of {items…} appear in all baskets</li>
+<li>Association Rule: {items…} -&gt; {other items…}. If… then…</li>
+<li>confidence of rule: conf(I -&gt; J) = supp(I union J) / supp(I)</li>
+<li>interest of rule: interest(I -&gt; J) = conf(I -&gt; J) - Pr[J], Pr[J] := probability that J is contained in a basket. rule with interest that is high (either pos or neg) is interesting.</li>
+<li>Problem: find ass. rules with supp &gt;= s, conf &gt;= c<ul>
+<li>Find frequent pairs<ul>
+<li>A-Priori Algorithm: find frequent items (freq &gt;= s) -&gt; extend frequent items into pairs</li>
+<li>PCY Multistage: 3 Passes, 2 indep hashes</li>
+<li>PCY Multihash: 2 Passes, 2 indep hashes</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h1><span id="lec-10">Lec 10</span></h1><p>Web<br>2 Problems:</p>
+<ol>
+<li>Web whitelist/blacklist</li>
+<li>Rank queries</li>
+</ol>
+<h2><span id="link-analysis">Link Analysis</span></h2><ul>
+<li>Page Rank</li>
+<li>Topic-Specific Page Rank (list S of pages for some topic, e.g. sports)</li>
+<li>Web Spam Detection</li>
+</ul>
+<h3><span id="page-rank">Page Rank</span></h3><p>Problems:</p>
+<ul>
+<li>Dead End</li>
+<li>Spider Trap<br>Solution:<br>Teleport</li>
+<li><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.439ex;" xmlns="http://www.w3.org/2000/svg" width="1.281ex" height="2.034ex" role="img" focusable="false" viewbox="0 -705 566 899"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mi"><path data-c="1D6FD" d="M29 -194Q23 -188 23 -186Q23 -183 102 134T186 465Q208 533 243 584T309 658Q365 705 429 705H431Q493 705 533 667T573 570Q573 465 469 396L482 383Q533 332 533 252Q533 139 448 65T257 -10Q227 -10 203 -2T165 17T143 40T131 59T126 65L62 -188Q60 -194 42 -194H29ZM353 431Q392 431 427 419L432 422Q436 426 439 429T449 439T461 453T472 471T484 495T493 524T501 560Q503 569 503 593Q503 611 502 616Q487 667 426 667Q384 667 347 643T286 582T247 514T224 455Q219 439 186 308T152 168Q151 163 151 147Q151 99 173 68Q204 26 260 26Q302 26 349 51T425 137Q441 171 449 214T457 279Q457 337 422 372Q380 358 347 358H337Q258 358 258 389Q258 396 261 403Q275 431 353 431Z"/></g></g></g></svg></mjx-container> tp</li>
+<li><mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.439ex;" xmlns="http://www.w3.org/2000/svg" width="5.177ex" height="2.034ex" role="img" focusable="false" viewbox="0 -705 2288.4 899"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="mn"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/></g><g data-mml-node="mo" transform="translate(722.2,0)"><path data-c="2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"/></g><g data-mml-node="mi" transform="translate(1722.4,0)"><path data-c="1D6FD" d="M29 -194Q23 -188 23 -186Q23 -183 102 134T186 465Q208 533 243 584T309 658Q365 705 429 705H431Q493 705 533 667T573 570Q573 465 469 396L482 383Q533 332 533 252Q533 139 448 65T257 -10Q227 -10 203 -2T165 17T143 40T131 59T126 65L62 -188Q60 -194 42 -194H29ZM353 431Q392 431 427 419L432 422Q436 426 439 429T449 439T461 453T472 471T484 495T493 524T501 560Q503 569 503 593Q503 611 502 616Q487 667 426 667Q384 667 347 643T286 582T247 514T224 455Q219 439 186 308T152 168Q151 163 151 147Q151 99 173 68Q204 26 260 26Q302 26 349 51T425 137Q441 171 449 214T457 279Q457 337 422 372Q380 358 347 358H337Q258 358 258 389Q258 396 261 403Q275 431 353 431Z"/></g></g></g></svg></mjx-container> not tp<br>Do not compute the tp matrix since it’s dense everywhere.</li>
+</ul>
+<h1><span id="lec-11">Lec 11</span></h1><p>Spam Farming</p>
+<ul>
+<li>inaccessible</li>
+<li>accessible (comment block etc.) link to owned</li>
+<li>owned (link to owned itself and accessible to increase their weights)<br><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="/images/mmd_lec_review/link_farming.png" alt="alt text"></li>
+</ul>
 
 <div class="article-footer fs14">
     <section id="license">
@@ -410,7 +459,7 @@ mjx-container[display="true"] + br {
 
 
 
-<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">On This Page</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">mmd_lec_review</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text">Lec 1</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text">Lec 2 3</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text">Lec 4</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text">Lec 5</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Lec 6</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Lec 7</span></a></li></ol></div><div class="widget-footer">
+<widget class="widget-wrapper toc" id="data-toc" collapse="false"><div class="widget-header dis-select"><span class="name">On This Page</span><a class="cap-action" onclick="sidebar.toggleTOC()" ><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6h11m-11 6h11m-11 6h11M4 6h1v4m-1 0h2m0 8H4c0-1 2-2 2-3s-1-1.5-2-1"/></svg></a></div><div class="widget-body"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">mmd_lec_review</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text">Lec 1</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text">Lec 2 3</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text">Lec 4</span></a></li><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text">Lec 5</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Lec 6</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Lec 7</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Lec 8</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Lec 9</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Lec 10</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link"><span class="toc-text">Link Analysis</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link"><span class="toc-text">Page Rank</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-text">Lec 11</span></a></li></ol></div><div class="widget-footer">
 
 <a class="top" onclick="util.scrollTop()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z"/><path stroke-linecap="round" stroke-linejoin="round" d="m9 15.5l3-3l3 3m-6-4l3-3l3 3"/></g></svg><span>Scroll to Top</span></a><a class="buttom" onclick="util.scrollComment()"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M10.46 1.25h3.08c1.603 0 2.86 0 3.864.095c1.023.098 1.861.3 2.6.752a5.75 5.75 0 0 1 1.899 1.899c.452.738.654 1.577.752 2.6c.095 1.004.095 2.261.095 3.865v1.067c0 1.141 0 2.036-.05 2.759c-.05.735-.153 1.347-.388 1.913a5.75 5.75 0 0 1-3.112 3.112c-.805.334-1.721.408-2.977.43a10.81 10.81 0 0 0-.929.036c-.198.022-.275.054-.32.08c-.047.028-.112.078-.224.232c-.121.166-.258.396-.476.764l-.542.916c-.773 1.307-2.69 1.307-3.464 0l-.542-.916a10.605 10.605 0 0 0-.476-.764c-.112-.154-.177-.204-.224-.232c-.045-.026-.122-.058-.32-.08c-.212-.023-.49-.03-.93-.037c-1.255-.021-2.171-.095-2.976-.429A5.75 5.75 0 0 1 1.688 16.2c-.235-.566-.338-1.178-.389-1.913c-.049-.723-.049-1.618-.049-2.76v-1.066c0-1.604 0-2.86.095-3.865c.098-1.023.3-1.862.752-2.6a5.75 5.75 0 0 1 1.899-1.899c.738-.452 1.577-.654 2.6-.752C7.6 1.25 8.857 1.25 10.461 1.25M6.739 2.839c-.914.087-1.495.253-1.959.537A4.25 4.25 0 0 0 3.376 4.78c-.284.464-.45 1.045-.537 1.96c-.088.924-.089 2.11-.089 3.761v1c0 1.175 0 2.019.046 2.685c.045.659.131 1.089.278 1.441a4.25 4.25 0 0 0 2.3 2.3c.515.214 1.173.294 2.429.316h.031c.398.007.747.013 1.037.045c.311.035.616.104.909.274c.29.17.5.395.682.645c.169.232.342.525.538.856l.559.944a.52.52 0 0 0 .882 0l.559-.944c.196-.331.37-.624.538-.856c.182-.25.392-.476.682-.645c.293-.17.598-.24.909-.274c.29-.032.639-.038 1.037-.045h.032c1.255-.022 1.913-.102 2.428-.316a4.25 4.25 0 0 0 2.3-2.3c.147-.352.233-.782.278-1.441c.046-.666.046-1.51.046-2.685v-1c0-1.651 0-2.837-.089-3.762c-.087-.914-.253-1.495-.537-1.959a4.25 4.25 0 0 0-1.403-1.403c-.464-.284-1.045-.45-1.96-.537c-.924-.088-2.11-.089-3.761-.089h-3c-1.651 0-2.837 0-3.762.089" clip-rule="evenodd"/><path fill="currentColor" d="M9 11a1 1 0 1 1-2 0a1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0a1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0a1 1 0 0 1 2 0"/></svg><span>Join Discussion</span></a></div></widget>
 </div></aside><div class='float-panel blur'>
