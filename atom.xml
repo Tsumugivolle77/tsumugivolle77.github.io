@@ -6,7 +6,7 @@
   <link href="https://tsumugivolle77.github.io/atom.xml" rel="self"/>
   
   <link href="https://tsumugivolle77.github.io/"/>
-  <updated>2025-02-07T12:23:48.903Z</updated>
+  <updated>2025-05-03T19:07:26.425Z</updated>
   <id>https://tsumugivolle77.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Machine Learning Essentials</title>
+    <link href="https://tsumugivolle77.github.io/2025/05/03/Machine-Learning-Essentials/"/>
+    <id>https://tsumugivolle77.github.io/2025/05/03/Machine-Learning-Essentials/</id>
+    <published>2025-05-03T18:58:26.000Z</published>
+    <updated>2025-05-03T19:07:26.425Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="[object Object]" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="/assets/js/Meting.min.js"></script><h1><span id="seminar-2-deeponet">Seminar 2. DeepONet</span></h1><p><img src="https://www.nature.com/articles/s42256-021-00302-5" alt="Lu, Jin, Pang, Zhang, Karniadakis: Learning nonlinear operators via DeepONet based on the universal approximation theorem of operators"></p><h2><span id="3-types-of-errors">3 Types of Errors</span></h2><ul><li>Approximation: the expressivity of the model.</li><li>Optimization: how good the parameters are?</li><li>Generalization: how good can the trained model match new samples?</li></ul><p>Universal Approximation Theorem can only guarantee a low approx. err. Moreover, it only proves the existence of the optimal approximation without giving an approach to it.<br><img src="/images/QQ_1746299055986.png" alt="alt text"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;[object Object]&quot; class=&quot;aplaye</summary>
+      
+    
+    
+    
+    <category term="Machine Learning" scheme="https://tsumugivolle77.github.io/categories/Machine-Learning/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>mmd lec review</title>
@@ -42,8 +64,8 @@
   
   <entry>
     <title>Properties of Arnoldi process for skew symmetric matrices</title>
-    <link href="https://tsumugivolle77.github.io/2024/12/18/Properties-of-Arnoldi-process-for-skew-symmetric-matrices/"/>
-    <id>https://tsumugivolle77.github.io/2024/12/18/Properties-of-Arnoldi-process-for-skew-symmetric-matrices/</id>
+    <link href="https://tsumugivolle77.github.io/2024/12/17/Properties-of-Arnoldi-process-for-skew-symmetric-matrices/"/>
+    <id>https://tsumugivolle77.github.io/2024/12/17/Properties-of-Arnoldi-process-for-skew-symmetric-matrices/</id>
     <published>2024-12-17T17:10:21.000Z</published>
     <updated>2024-12-17T17:13:42.371Z</updated>
     
@@ -92,8 +114,8 @@
   
   <entry>
     <title>NODE Übungsmenü</title>
-    <link href="https://tsumugivolle77.github.io/2024/12/04/Prove-Trumpet-Bound/"/>
-    <id>https://tsumugivolle77.github.io/2024/12/04/Prove-Trumpet-Bound/</id>
+    <link href="https://tsumugivolle77.github.io/2024/12/03/Prove-Trumpet-Bound/"/>
+    <id>https://tsumugivolle77.github.io/2024/12/03/Prove-Trumpet-Bound/</id>
     <published>2024-12-03T21:47:39.000Z</published>
     <updated>2024-12-04T19:02:44.039Z</updated>
     
@@ -166,8 +188,8 @@
   
   <entry>
     <title>Heidelberg Bird Observation</title>
-    <link href="https://tsumugivolle77.github.io/2024/11/16/Heidelberg-Bird-Observation/"/>
-    <id>https://tsumugivolle77.github.io/2024/11/16/Heidelberg-Bird-Observation/</id>
+    <link href="https://tsumugivolle77.github.io/2024/11/15/Heidelberg-Bird-Observation/"/>
+    <id>https://tsumugivolle77.github.io/2024/11/15/Heidelberg-Bird-Observation/</id>
     <published>2024-11-15T22:53:19.000Z</published>
     <updated>2024-11-20T20:43:49.535Z</updated>
     
