@@ -1,6 +1,5 @@
-https://tsumugivolle77.github.io/2025/05/03/Machine-Learning-Essentials/
+https://tsumugivolle77.github.io/2025/10/22/QM-Dirac-Potential-Well/
 https://tsumugivolle77.github.io/2024/12/01/Zitate-von-1984/
-https://tsumugivolle77.github.io/2025/02/02/mmd-lec-review/
 https://tsumugivolle77.github.io/about/
 https://tsumugivolle77.github.io/explore/
 https://tsumugivolle77.github.io/friends/
@@ -29,11 +28,10 @@ https://tsumugivolle77.github.io/tags/1984/
 https://tsumugivolle77.github.io/tags/Statistics/
 https://tsumugivolle77.github.io/tags/Numerical-Linear-Algebra/
 https://tsumugivolle77.github.io/tags/Welt-von-Gestern/
-https://tsumugivolle77.github.io/tags/not-suitbale-for-read/
+https://tsumugivolle77.github.io/tags/basics/
 https://tsumugivolle77.github.io/categories/maths/
 https://tsumugivolle77.github.io/categories/life-records/
 https://tsumugivolle77.github.io/categories/programming/
 https://tsumugivolle77.github.io/categories/anitabi/
 https://tsumugivolle77.github.io/categories/literature/
-https://tsumugivolle77.github.io/categories/review/
-https://tsumugivolle77.github.io/categories/Machine-Learning/
+https://tsumugivolle77.github.io/categories/Quantum-Mechanism/
