@@ -25,8 +25,7 @@ https://tsumugivolle77.github.io/tags/Numerical-Linear-Algebra/
 https://tsumugivolle77.github.io/tags/Welt-von-Gestern/
 https://tsumugivolle77.github.io/tags/open-system/
 https://tsumugivolle77.github.io/tags/decoherence/
-https://tsumugivolle77.github.io/tags/Caldeira-Leggett/
-https://tsumugivolle77.github.io/tags/Markov-Approximation/
+https://tsumugivolle77.github.io/tags/Caldeira%E2%80%93Leggett/
 https://tsumugivolle77.github.io/categories/maths/
 https://tsumugivolle77.github.io/categories/life-records/
 https://tsumugivolle77.github.io/categories/programming/
