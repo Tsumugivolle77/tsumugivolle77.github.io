@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://tsumugivolle77.github.io/2026/02/11/Quantum-Dissipative-System/</loc>
+    <loc>https://tsumugivolle77.github.io/2026/04/02/german-education-system-from-a-low-level/</loc>
     
     <lastmod>2026-04-02</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://tsumugivolle77.github.io/2026/04/02/german-education-system-from-a-low-level/</loc>
+    <loc>https://tsumugivolle77.github.io/2026/02/11/Quantum-Dissipative-System/</loc>
     
     <lastmod>2026-04-02</lastmod>
     
@@ -248,6 +248,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://tsumugivolle77.github.io/tags/education/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -287,6 +294,13 @@
   
   <url>
     <loc>https://tsumugivolle77.github.io/categories/quantum-mechanics/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/categories/Ot-Fs/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
