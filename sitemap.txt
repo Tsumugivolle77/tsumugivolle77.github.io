@@ -1,8 +1,9 @@
-https://tsumugivolle77.github.io/2024/12/02/Zitate-von-1984/
+https://tsumugivolle77.github.io/2026/04/14/Computational-Fluid-Dynamics-W1/
+https://tsumugivolle77.github.io/2024/12/01/Zitate-von-1984/
 https://tsumugivolle77.github.io/2024/11/19/IVP-Sensitivity-Matrices-Properties/
 https://tsumugivolle77.github.io/2026/04/02/german-education-system-from-a-low-perspective/
 https://tsumugivolle77.github.io/2024/10/25/%E9%B8%9F%E7%99%BD%E5%B2%9B%E5%B7%A1%E7%A4%BC%E6%8C%87%E5%8C%97/
-https://tsumugivolle77.github.io/2024/11/16/Heidelberg-Bird-Observation/
+https://tsumugivolle77.github.io/2024/11/15/Heidelberg-Bird-Observation/
 https://tsumugivolle77.github.io/2026/02/11/Quantum-Dissipative-System/
 https://tsumugivolle77.github.io/2026/03/02/peano-axiom/
 https://tsumugivolle77.github.io/about/
@@ -10,8 +11,8 @@ https://tsumugivolle77.github.io/wiki/
 https://tsumugivolle77.github.io/2024/10/25/SFINAE%20%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2/
 https://tsumugivolle77.github.io/explore/
 https://tsumugivolle77.github.io/friends/
-https://tsumugivolle77.github.io/2024/12/18/Properties-of-Arnoldi-process-for-skew-symmetric-matrices/
-https://tsumugivolle77.github.io/2024/12/04/Prove-Trumpet-Bound/
+https://tsumugivolle77.github.io/2024/12/17/Properties-of-Arnoldi-process-for-skew-symmetric-matrices/
+https://tsumugivolle77.github.io/2024/12/03/Prove-Trumpet-Bound/
 https://tsumugivolle77.github.io/
 https://tsumugivolle77.github.io/tags/Deutschland/
 https://tsumugivolle77.github.io/tags/life/
@@ -30,6 +31,8 @@ https://tsumugivolle77.github.io/tags/Peano-axioms/
 https://tsumugivolle77.github.io/tags/real-analysis/
 https://tsumugivolle77.github.io/tags/education/
 https://tsumugivolle77.github.io/tags/die-Welt-von-Gestern/
+https://tsumugivolle77.github.io/tags/FEM/
+https://tsumugivolle77.github.io/tags/CFD/
 https://tsumugivolle77.github.io/categories/maths/
 https://tsumugivolle77.github.io/categories/life-records/
 https://tsumugivolle77.github.io/categories/programming/
@@ -37,3 +40,5 @@ https://tsumugivolle77.github.io/categories/anitabi/
 https://tsumugivolle77.github.io/categories/literature/
 https://tsumugivolle77.github.io/categories/quantum-mechanics/
 https://tsumugivolle77.github.io/categories/Ot-Fs/
+https://tsumugivolle77.github.io/categories/maths/physics/
+https://tsumugivolle77.github.io/categories/maths/physics/numerical/
