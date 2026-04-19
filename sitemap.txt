@@ -1,3 +1,4 @@
+https://tsumugivolle77.github.io/2026/04/19/run/
 https://tsumugivolle77.github.io/2026/04/14/Computational-Fluid-Dynamics-W1/
 https://tsumugivolle77.github.io/2024/12/01/Zitate-von-1984/
 https://tsumugivolle77.github.io/2024/11/19/IVP-Sensitivity-Matrices-Properties/
@@ -33,6 +34,7 @@ https://tsumugivolle77.github.io/tags/education/
 https://tsumugivolle77.github.io/tags/die-Welt-von-Gestern/
 https://tsumugivolle77.github.io/tags/FEM/
 https://tsumugivolle77.github.io/tags/CFD/
+https://tsumugivolle77.github.io/tags/egal-was/
 https://tsumugivolle77.github.io/categories/maths/
 https://tsumugivolle77.github.io/categories/life-records/
 https://tsumugivolle77.github.io/categories/programming/
@@ -42,3 +44,4 @@ https://tsumugivolle77.github.io/categories/quantum-mechanics/
 https://tsumugivolle77.github.io/categories/Ot-Fs/
 https://tsumugivolle77.github.io/categories/maths/physics/
 https://tsumugivolle77.github.io/categories/maths/physics/numerical/
+https://tsumugivolle77.github.io/categories/Gedanken/
