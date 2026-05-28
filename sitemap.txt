@@ -1,3 +1,4 @@
+https://tsumugivolle77.github.io/2026/05/28/Intuitions-on-Variational-Formulation/
 https://tsumugivolle77.github.io/2026/04/23/demian/
 https://tsumugivolle77.github.io/2026/04/19/run/
 https://tsumugivolle77.github.io/2024/10/25/%E9%B8%9F%E7%99%BD%E5%B2%9B%E5%B7%A1%E7%A4%BC%E6%8C%87%E5%8C%97/
@@ -40,6 +41,7 @@ https://tsumugivolle77.github.io/tags/egal-was/
 https://tsumugivolle77.github.io/tags/Hesse/
 https://tsumugivolle77.github.io/tags/shitpost/
 https://tsumugivolle77.github.io/tags/CTMP/
+https://tsumugivolle77.github.io/tags/Numerics/
 https://tsumugivolle77.github.io/categories/maths/
 https://tsumugivolle77.github.io/categories/life-records/
 https://tsumugivolle77.github.io/categories/programming/
