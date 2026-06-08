@@ -1,3 +1,4 @@
+https://tsumugivolle77.github.io/2026/06/08/poisson-brackets/
 https://tsumugivolle77.github.io/2026/06/08/steppenwolf/
 https://tsumugivolle77.github.io/README
 https://tsumugivolle77.github.io/2026/04/23/demian/
@@ -44,6 +45,7 @@ https://tsumugivolle77.github.io/tags/Hesse/
 https://tsumugivolle77.github.io/tags/shitpost/
 https://tsumugivolle77.github.io/tags/CTMP/
 https://tsumugivolle77.github.io/tags/Numerics/
+https://tsumugivolle77.github.io/tags/baby-level/
 https://tsumugivolle77.github.io/categories/maths/
 https://tsumugivolle77.github.io/categories/life-records/
 https://tsumugivolle77.github.io/categories/programming/
@@ -54,3 +56,4 @@ https://tsumugivolle77.github.io/categories/Ot-Fs/
 https://tsumugivolle77.github.io/categories/maths/physics/
 https://tsumugivolle77.github.io/categories/maths/physics/numerical/
 https://tsumugivolle77.github.io/categories/Gedanken/
+https://tsumugivolle77.github.io/categories/classical-mechanics/

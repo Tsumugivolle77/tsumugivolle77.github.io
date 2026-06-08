@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tsumugivolle77.github.io/2026/06/08/poisson-brackets/</loc>
+    
+    <lastmod>2026-06-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tsumugivolle77.github.io/2026/06/08/steppenwolf/</loc>
     
     <lastmod>2026-06-08</lastmod>
@@ -367,6 +376,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://tsumugivolle77.github.io/tags/baby-level/</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -434,6 +450,13 @@
   
   <url>
     <loc>https://tsumugivolle77.github.io/categories/Gedanken/</loc>
+    <lastmod>2026-06-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/categories/classical-mechanics/</loc>
     <lastmod>2026-06-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
