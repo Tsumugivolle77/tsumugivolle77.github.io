@@ -2,6 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tsumugivolle77.github.io/2024/10/25/SFINAE%20%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2/</loc>
+    
+    <lastmod>2026-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/2024/10/25/%E9%B8%9F%E7%99%BD%E5%B2%9B%E5%B7%A1%E7%A4%BC%E6%8C%87%E5%8C%97/</loc>
+    
+    <lastmod>2026-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/2024/12/17/Properties-of-Arnoldi-process-for-skew-symmetric-matrices/</loc>
+    
+    <lastmod>2026-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/2024/12/03/Prove-Trumpet-Bound/</loc>
+    
+    <lastmod>2026-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/2026/04/19/run/</loc>
+    
+    <lastmod>2026-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/2026/06/08/poisson-brackets/</loc>
+    
+    <lastmod>2026-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/CLAUDE</loc>
+    
+    <lastmod>2026-06-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tsumugivolle77.github.io/2026/02/11/Quantum-Dissipative-System/</loc>
     
     <lastmod>2026-06-14</lastmod>
@@ -38,15 +101,6 @@
   </url>
   
   <url>
-    <loc>https://tsumugivolle77.github.io/2026/06/08/poisson-brackets/</loc>
-    
-    <lastmod>2026-06-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tsumugivolle77.github.io/2026/06/08/steppenwolf/</loc>
     
     <lastmod>2026-06-08</lastmod>
@@ -68,24 +122,6 @@
     <loc>https://tsumugivolle77.github.io/2026/04/23/demian/</loc>
     
     <lastmod>2026-06-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tsumugivolle77.github.io/2024/10/25/%E9%B8%9F%E7%99%BD%E5%B2%9B%E5%B7%A1%E7%A4%BC%E6%8C%87%E5%8C%97/</loc>
-    
-    <lastmod>2026-06-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tsumugivolle77.github.io/2026/04/19/run/</loc>
-    
-    <lastmod>2026-06-01</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -119,43 +155,7 @@
   </url>
   
   <url>
-    <loc>https://tsumugivolle77.github.io/2024/10/25/SFINAE%20%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2/</loc>
-    
-    <lastmod>2026-05-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tsumugivolle77.github.io/2026/04/14/Computational-Fluid-Dynamics-W1/</loc>
-    
-    <lastmod>2026-05-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tsumugivolle77.github.io/2024/11/19/IVP-Sensitivity-Matrices-Properties/</loc>
-    
-    <lastmod>2026-05-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tsumugivolle77.github.io/2024/12/03/Prove-Trumpet-Bound/</loc>
-    
-    <lastmod>2026-05-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tsumugivolle77.github.io/2024/12/17/Properties-of-Arnoldi-process-for-skew-symmetric-matrices/</loc>
     
     <lastmod>2026-05-09</lastmod>
     
@@ -337,20 +337,6 @@
   </url>
   
   <url>
-    <loc>https://tsumugivolle77.github.io/tags/FEM/</loc>
-    <lastmod>2026-06-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tsumugivolle77.github.io/tags/CFD/</loc>
-    <lastmod>2026-06-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://tsumugivolle77.github.io/tags/egal-was/</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -459,20 +445,6 @@
   
   <url>
     <loc>https://tsumugivolle77.github.io/categories/Ot-Fs/</loc>
-    <lastmod>2026-06-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tsumugivolle77.github.io/categories/maths/physics/</loc>
-    <lastmod>2026-06-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tsumugivolle77.github.io/categories/maths/physics/numerical/</loc>
     <lastmod>2026-06-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
