@@ -5033,7 +5033,7 @@ details.toc[open] >div.body section .header+.doc_tree {
 }
 .l_left {
   background-size: cover;
-  background-image: url("/images/mugyu.jpg");
+  background-image: linear-gradient(180deg, #c2e9fb 0%, #a1c4fd 100%);
 }
 .l_left .leftbar-container {
   height: 100%;
