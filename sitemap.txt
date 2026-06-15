@@ -1,6 +1,7 @@
+https://tsumugivolle77.github.io/2026/06/15/lie-algebra/
+https://tsumugivolle77.github.io/CLAUDE
 https://tsumugivolle77.github.io/explore/
 https://tsumugivolle77.github.io/about/
-https://tsumugivolle77.github.io/CLAUDE
 https://tsumugivolle77.github.io/wiki/notizen/
 https://tsumugivolle77.github.io/wiki/notizen/run
 https://tsumugivolle77.github.io/wiki/notizen/%E9%B8%9F%E7%99%BD%E5%B2%9B%E5%B7%A1%E7%A4%BC%E6%8C%87%E5%8C%97
@@ -38,6 +39,7 @@ https://tsumugivolle77.github.io/tags/baby-level/
 https://tsumugivolle77.github.io/tags/Numerical-Analysis/
 https://tsumugivolle77.github.io/tags/Finite-Element-Method/
 https://tsumugivolle77.github.io/tags/Stokes-Equations/
+https://tsumugivolle77.github.io/tags/algebra/
 https://tsumugivolle77.github.io/categories/maths/
 https://tsumugivolle77.github.io/categories/quantum-mechanics/
 https://tsumugivolle77.github.io/categories/programming/
