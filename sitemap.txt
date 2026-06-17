@@ -1,3 +1,4 @@
+https://tsumugivolle77.github.io/2026/06/17/Rev-Eng/
 https://tsumugivolle77.github.io/2026/06/15/lie-algebra/
 https://tsumugivolle77.github.io/CLAUDE
 https://tsumugivolle77.github.io/explore/
@@ -40,8 +41,12 @@ https://tsumugivolle77.github.io/tags/Numerical-Analysis/
 https://tsumugivolle77.github.io/tags/Finite-Element-Method/
 https://tsumugivolle77.github.io/tags/Stokes-Equations/
 https://tsumugivolle77.github.io/tags/algebra/
+https://tsumugivolle77.github.io/tags/LLM-application/
+https://tsumugivolle77.github.io/tags/symbolic-execution/
+https://tsumugivolle77.github.io/tags/KLEE/
 https://tsumugivolle77.github.io/categories/maths/
 https://tsumugivolle77.github.io/categories/quantum-mechanics/
 https://tsumugivolle77.github.io/categories/programming/
 https://tsumugivolle77.github.io/categories/classical-mechanics/
 https://tsumugivolle77.github.io/categories/Computational-Fluid-Dynamics/
+https://tsumugivolle77.github.io/categories/computer-science/
