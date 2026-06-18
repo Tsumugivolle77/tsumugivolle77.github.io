@@ -1,7 +1,8 @@
 https://tsumugivolle77.github.io/2026/06/17/Rev-Eng/
+https://tsumugivolle77.github.io/friends/
+https://tsumugivolle77.github.io/explore/
 https://tsumugivolle77.github.io/2026/06/15/lie-algebra/
 https://tsumugivolle77.github.io/CLAUDE
-https://tsumugivolle77.github.io/explore/
 https://tsumugivolle77.github.io/about/
 https://tsumugivolle77.github.io/wiki/notizen/
 https://tsumugivolle77.github.io/wiki/notizen/run
@@ -13,7 +14,6 @@ https://tsumugivolle77.github.io/notes/literature/Zitate-von-1984
 https://tsumugivolle77.github.io/notes/literature/steppenwolf
 https://tsumugivolle77.github.io/notes/literature/demian
 https://tsumugivolle77.github.io/2024/12/17/Properties-of-Arnoldi-process-for-skew-symmetric-matrices/
-https://tsumugivolle77.github.io/friends/
 https://tsumugivolle77.github.io/2024/10/25/SFINAE%20%E7%9A%84%E5%8F%91%E5%B1%95%E5%8F%B2/
 https://tsumugivolle77.github.io/2024/12/03/Prove-Trumpet-Bound/
 https://tsumugivolle77.github.io/2026/06/08/poisson-brackets/
