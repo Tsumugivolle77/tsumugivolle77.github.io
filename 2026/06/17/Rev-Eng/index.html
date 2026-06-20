@@ -28,7 +28,7 @@
 <meta property="og:description" content="But not reversed engineering">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2026-06-17T10:32:03.000Z">
-<meta property="article:modified_time" content="2026-06-19T10:02:04.061Z">
+<meta property="article:modified_time" content="2026-06-20T12:23:28.202Z">
 <meta property="article:author" content="Offensive 77">
 <meta property="article:tag" content="LLM-application">
 <meta property="article:tag" content="symbolic execution">
@@ -193,7 +193,7 @@ mjx-container[display="true"] + br {
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">Home</a>
 <span class="sep"></span><a class="cap breadcrumb" href="/">Blog</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/computer-science/">computer science</a></div>
-<div class="flex-row" id="post-meta"><span class="text created">Posted on: <time datetime="2026-06-17T10:32:03.000Z">2026-06-17</time></span><span class="sep updated"></span><span class="text updated">Updated on: <time datetime="2026-06-19T10:02:04.061Z">2026-06-19</time></span></div></div></div>
+<div class="flex-row" id="post-meta"><span class="text created">Posted on: <time datetime="2026-06-17T10:32:03.000Z">2026-06-17</time></span><span class="sep updated"></span><span class="text updated">Updated on: <time datetime="2026-06-20T12:23:28.202Z">2026-06-20</time></span></div></div></div>
     
     <div class="bottom only-title">
       
@@ -207,9 +207,9 @@ mjx-container[display="true"] + br {
   </div><article class="md-text content"><h1>Motivation</h1>
 <h2 id="Reversed-Engineering">Reversed Engineering</h2>
 <p>The problem was born in <strong>reversed engineering</strong>, in which we decompile the binary code to obtain the source code. In this process, two versions of function are involved: the original function before compilation 
-    <span id="mjx-47ebe0d8">
+    <span id="mjx-39065e8">
       <style>
-      #mjx-47ebe0d8{
+      #mjx-39065e8{
         display:contents;
         mjx-assistive-mml {
           user-select: text !important;
@@ -368,9 +368,9 @@ g[data-mml-node="xypic"] path {
       <mjx-container class="MathJax" jax="SVG" style="position: relative;"><svg style="vertical-align: -0.464ex;" xmlns="http://www.w3.org/2000/svg" width="2.096ex" height="2.059ex" role="img" focusable="false" viewBox="0 -705 926.6 910" aria-hidden="true"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><path data-c="1D453" d="M118 -162Q120 -162 124 -164T135 -167T147 -168Q160 -168 171 -155T187 -126Q197 -99 221 27T267 267T289 382V385H242Q195 385 192 387Q188 390 188 397L195 425Q197 430 203 430T250 431Q298 431 298 432Q298 434 307 482T319 540Q356 705 465 705Q502 703 526 683T550 630Q550 594 529 578T487 561Q443 561 443 603Q443 622 454 636T478 657L487 662Q471 668 457 668Q445 668 434 658T419 630Q412 601 403 552T387 469T380 433Q380 431 435 431Q480 431 487 430T498 424Q499 420 496 407T491 391Q489 386 482 386T428 385H372L349 263Q301 15 282 -47Q255 -132 212 -173Q175 -205 139 -205Q107 -205 81 -186T55 -132Q55 -95 76 -78T118 -61Q162 -61 162 -103Q162 -122 151 -136T127 -157L118 -162Z"></path></g><g data-mml-node="mn" transform="translate(523,-150) scale(0.707)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>f</mi><mn>1</mn></msub></math></mjx-assistive-mml></mjx-container>
     </span>
    and the recovered function after decompilation 
-    <span id="mjx-9f96dfc">
+    <span id="mjx-e085f55">
       <style>
-      #mjx-9f96dfc{
+      #mjx-e085f55{
         display:contents;
         mjx-assistive-mml {
           user-select: text !important;
@@ -529,9 +529,9 @@ g[data-mml-node="xypic"] path {
       <mjx-container class="MathJax" jax="SVG" style="position: relative;"><svg style="vertical-align: -0.464ex;" xmlns="http://www.w3.org/2000/svg" width="2.096ex" height="2.059ex" role="img" focusable="false" viewBox="0 -705 926.6 910" aria-hidden="true"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><path data-c="1D453" d="M118 -162Q120 -162 124 -164T135 -167T147 -168Q160 -168 171 -155T187 -126Q197 -99 221 27T267 267T289 382V385H242Q195 385 192 387Q188 390 188 397L195 425Q197 430 203 430T250 431Q298 431 298 432Q298 434 307 482T319 540Q356 705 465 705Q502 703 526 683T550 630Q550 594 529 578T487 561Q443 561 443 603Q443 622 454 636T478 657L487 662Q471 668 457 668Q445 668 434 658T419 630Q412 601 403 552T387 469T380 433Q380 431 435 431Q480 431 487 430T498 424Q499 420 496 407T491 391Q489 386 482 386T428 385H372L349 263Q301 15 282 -47Q255 -132 212 -173Q175 -205 139 -205Q107 -205 81 -186T55 -132Q55 -95 76 -78T118 -61Q162 -61 162 -103Q162 -122 151 -136T127 -157L118 -162Z"></path></g><g data-mml-node="mn" transform="translate(523,-150) scale(0.707)"><path data-c="32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"></path></g></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>f</mi><mn>2</mn></msub></math></mjx-assistive-mml></mjx-container>
     </span>
   . Does it hold that 
-    <span id="mjx-e5b75568">
+    <span id="mjx-105b5f4">
       <style>
-      #mjx-e5b75568{
+      #mjx-105b5f4{
         display:contents;
         mjx-assistive-mml {
           user-select: text !important;
@@ -692,9 +692,9 @@ g[data-mml-node="xypic"] path {
   ? In most cases, they can not look all the same and they can also behave differently in some edge cases. UB, different machine and different compilers can make the executables vary in the binary level.</p>
 <h2 id="Bug-Detection">Bug Detection</h2>
 <p>Suppose we have two versions of OpenSSL. Some functions are changed during the update. A careless engineer made a small typo somewhere that no one noticed and the code seemed to behave nicely. But in the production environment, for some edge cases, say 
-    <span id="mjx-5efb9de8">
+    <span id="mjx-4e936468">
       <style>
-      #mjx-5efb9de8{
+      #mjx-4e936468{
         display:contents;
         mjx-assistive-mml {
           user-select: text !important;
@@ -855,9 +855,9 @@ g[data-mml-node="xypic"] path {
   , the program crashed! We would desire to know before we publish the new version, if the new function and the old function do the same thing or where is the improvement/drawback of the new function.</p>
 <h1>KLEE: A Symbolic Execution Engine</h1>
 <p>The traditional way of doing this <em>stupid</em> 
-    <span id="mjx-d8ebb5c">
+    <span id="mjx-435b9a88">
       <style>
-      #mjx-d8ebb5c{
+      #mjx-435b9a88{
         display:contents;
         mjx-assistive-mml {
           user-select: text !important;
@@ -1024,9 +1024,9 @@ g[data-mml-node="xypic"] path {
 <p>The aim of running the tests is to judge whether the code generated by LLM can be relied upon. An interesting thing happens now:</p>
 <ol>
 <li>Our initial task is to test if 
-    <span id="mjx-040edc98">
+    <span id="mjx-526789e8">
       <style>
-      #mjx-040edc98{
+      #mjx-526789e8{
         display:contents;
         mjx-assistive-mml {
           user-select: text !important;
@@ -1186,9 +1186,9 @@ g[data-mml-node="xypic"] path {
     </span>
   .</li>
 <li>We send the signatures of both functions to LLM, receiving <code>main.c #1</code>. In the test, we compare it with another code written by hand <code>main.c #2</code>. The task now becomes judging if 
-    <span id="mjx-b71dd878">
+    <span id="mjx-1748312">
       <style>
-      #mjx-b71dd878{
+      #mjx-1748312{
         display:contents;
         mjx-assistive-mml {
           user-select: text !important;
@@ -1350,9 +1350,9 @@ g[data-mml-node="xypic"] path {
 <li>The intuitive answer is to count the number of assertion failures in the output message of <code>ktest-tool</code>.</li>
 </ol>
 <p>But the problem is, if the <code>main</code> function does not actually contain any code, assertion failure will never happen. The count of assertion error will be 0. And if 
-    <span id="mjx-540df118">
+    <span id="mjx-ec0273f8">
       <style>
-      #mjx-540df118{
+      #mjx-ec0273f8{
         display:contents;
         mjx-assistive-mml {
           user-select: text !important;
@@ -1511,9 +1511,9 @@ g[data-mml-node="xypic"] path {
       <mjx-container class="MathJax" jax="SVG" style="position: relative;"><svg style="vertical-align: -0.464ex;" xmlns="http://www.w3.org/2000/svg" width="2.096ex" height="2.059ex" role="img" focusable="false" viewBox="0 -705 926.6 910" aria-hidden="true"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msub"><g data-mml-node="mi"><path data-c="1D453" d="M118 -162Q120 -162 124 -164T135 -167T147 -168Q160 -168 171 -155T187 -126Q197 -99 221 27T267 267T289 382V385H242Q195 385 192 387Q188 390 188 397L195 425Q197 430 203 430T250 431Q298 431 298 432Q298 434 307 482T319 540Q356 705 465 705Q502 703 526 683T550 630Q550 594 529 578T487 561Q443 561 443 603Q443 622 454 636T478 657L487 662Q471 668 457 668Q445 668 434 658T419 630Q412 601 403 552T387 469T380 433Q380 431 435 431Q480 431 487 430T498 424Q499 420 496 407T491 391Q489 386 482 386T428 385H372L349 263Q301 15 282 -47Q255 -132 212 -173Q175 -205 139 -205Q107 -205 81 -186T55 -132Q55 -95 76 -78T118 -61Q162 -61 162 -103Q162 -122 151 -136T127 -157L118 -162Z"></path></g><g data-mml-node="mn" transform="translate(523,-150) scale(0.707)"><path data-c="31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path></g></g></g></g></svg><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>f</mi><mn>1</mn></msub></math></mjx-assistive-mml></mjx-container>
     </span>
    and 
-    <span id="mjx-0494f068">
+    <span id="mjx-2a4dd7f8">
       <style>
-      #mjx-0494f068{
+      #mjx-2a4dd7f8{
         display:contents;
         mjx-assistive-mml {
           user-select: text !important;
@@ -1676,6 +1676,12 @@ g[data-mml-node="xypic"] path {
 At least in this case the count of <code>.ktest</code> files make sense.</p>
 <p>Another thing we use is the content of one <code>.ktest</code> file. It contains the value of the variables when certain branch is reached.</p>
 <p>Notice that these still do not guarantee the test works for every possible scenarios but it should suffice for simple cases.</p>
+<p>TODOs:<br>
+[] - test ktest output.<br>
+[] - implement new test_main. try catch<br>
+[] - clean docker container: remove_running_container<br>
+[] - preping test<br>
+[] - test directory relative path -&gt; absolute path</p>
 
 <div class="article-footer fs14">
     <section id="license">
