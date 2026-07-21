@@ -1,5 +1,7 @@
-https://tsumugivolle77.github.io/wiki/denken/albtraum
+https://tsumugivolle77.github.io/2026/07/21/CFD/
+https://tsumugivolle77.github.io/CLAUDE
 https://tsumugivolle77.github.io/2026/06/17/Rev-Eng/
+https://tsumugivolle77.github.io/wiki/denken/albtraum
 https://tsumugivolle77.github.io/wiki/denken/2026-a-retrospect
 https://tsumugivolle77.github.io/about/
 https://tsumugivolle77.github.io/wiki/denken/german-education-system-from-a-low-perspective
@@ -9,7 +11,6 @@ https://tsumugivolle77.github.io/wiki/reise/%E9%B8%9F%E7%99%BD%E5%B2%9B%E5%B7%A1
 https://tsumugivolle77.github.io/friends/
 https://tsumugivolle77.github.io/explore/
 https://tsumugivolle77.github.io/2026/06/15/lie-algebra/
-https://tsumugivolle77.github.io/CLAUDE
 https://tsumugivolle77.github.io/wiki/notizen/
 https://tsumugivolle77.github.io/notes/literature/Zitate-von-1984
 https://tsumugivolle77.github.io/notes/literature/steppenwolf
@@ -45,9 +46,12 @@ https://tsumugivolle77.github.io/tags/baby-level/
 https://tsumugivolle77.github.io/tags/Numerical-Analysis/
 https://tsumugivolle77.github.io/tags/Finite-Element-Method/
 https://tsumugivolle77.github.io/tags/Stokes-Equations/
+https://tsumugivolle77.github.io/tags/Mechanics/
+https://tsumugivolle77.github.io/tags/PDE/
 https://tsumugivolle77.github.io/categories/maths/
 https://tsumugivolle77.github.io/categories/quantum-mechanics/
 https://tsumugivolle77.github.io/categories/computer-science/
 https://tsumugivolle77.github.io/categories/programming/
 https://tsumugivolle77.github.io/categories/classical-mechanics/
 https://tsumugivolle77.github.io/categories/Computational-Fluid-Dynamics/
+https://tsumugivolle77.github.io/categories/applied-maths/
