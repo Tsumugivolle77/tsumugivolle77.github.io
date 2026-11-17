@@ -1,3 +1,6 @@
+https://tsumugivolle77.github.io/2026/11/17/Oldroyd-B-Model-and-Weissenberg-Effect/
+https://tsumugivolle77.github.io/2026/11/17/Objective-Derivatives/
+https://tsumugivolle77.github.io/2026/11/17/Maxwell-Fluid/
 https://tsumugivolle77.github.io/2026/07/27/CFD-2/
 https://tsumugivolle77.github.io/2026/07/21/CFD/
 https://tsumugivolle77.github.io/CLAUDE
@@ -49,6 +52,10 @@ https://tsumugivolle77.github.io/tags/Finite-Element-Method/
 https://tsumugivolle77.github.io/tags/Stokes-Equations/
 https://tsumugivolle77.github.io/tags/Mechanics/
 https://tsumugivolle77.github.io/tags/PDE/
+https://tsumugivolle77.github.io/tags/Non-Newtonian-Fluid/
+https://tsumugivolle77.github.io/tags/Rheology/
+https://tsumugivolle77.github.io/tags/Viscoelasticity/
+https://tsumugivolle77.github.io/tags/Continuum-Mechanics/
 https://tsumugivolle77.github.io/categories/maths/
 https://tsumugivolle77.github.io/categories/quantum-mechanics/
 https://tsumugivolle77.github.io/categories/computer-science/

@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tsumugivolle77.github.io/2026/11/17/Oldroyd-B-Model-and-Weissenberg-Effect/</loc>
+    
+    <lastmod>2026-11-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/2026/11/17/Objective-Derivatives/</loc>
+    
+    <lastmod>2026-11-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/2026/11/17/Maxwell-Fluid/</loc>
+    
+    <lastmod>2026-11-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tsumugivolle77.github.io/2026/07/27/CFD-2/</loc>
     
     <lastmod>2026-07-27</lastmod>
@@ -256,7 +283,7 @@
 
   <url>
     <loc>https://tsumugivolle77.github.io/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -264,154 +291,182 @@
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/Numerical-Optimization/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/Numerics/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/Numerical-Linear-Algebra/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/open-system/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/decoherence/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/Caldeira%E2%80%93Leggett/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/LLM-application/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/symbolic-execution/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/KLEE/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/algebra/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/Peano-axioms/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/real-analysis/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/C/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/SFINAE/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/templates/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/CTMP/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/baby-level/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/Numerical-Analysis/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/Finite-Element-Method/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/Stokes-Equations/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/Mechanics/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/tags/PDE/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/tags/Non-Newtonian-Fluid/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/tags/Rheology/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/tags/Viscoelasticity/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tsumugivolle77.github.io/tags/Continuum-Mechanics/</loc>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -420,49 +475,49 @@
   
   <url>
     <loc>https://tsumugivolle77.github.io/categories/maths/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/categories/quantum-mechanics/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/categories/computer-science/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/categories/programming/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/categories/classical-mechanics/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/categories/Computational-Fluid-Dynamics/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tsumugivolle77.github.io/categories/applied-maths/</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-11-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
